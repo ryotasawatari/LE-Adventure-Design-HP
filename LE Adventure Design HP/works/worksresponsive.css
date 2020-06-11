@@ -1,0 +1,103 @@
+
+@media screen and (max-width: 600px) {
+
+  header {
+    height: 80px;
+    position: static;
+  }
+  .header-nav{
+    width: 100%;
+    height: 80px;
+    text-align: left;
+    position: relative;
+  }
+
+  .header-logo img {
+    width: 60%;
+    height: auto;
+    padding: 10px 10px;
+    margin: 0;
+    margin-left: 20px;
+    float: none;
+  }
+
+  .menu-mobile {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+  }
+
+  .header-list li {
+    display: none;
+  }
+
+
+  .headline {
+    margin-top: 50px;
+    height: 300px;
+  }
+  .headline-icon img {
+    margin-top: 5px;
+    width: 30%;
+  }
+  .headline-logo img {
+    margin-top: -10px;
+    width: 50%;
+  }
+  .headline-container > p {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .works-container {
+    margin-top: 40px;
+    width: 90%;
+    height: 3150px;
+  }
+  .works-item {
+    margin: 10px auto;
+  }
+  
+  .works-item img {
+    width: 150px;
+    height: auto;
+  }
+
+
+
+
+  .contact {
+    width: 100%;
+    margin-top: -50px;
+  }
+  .contact-icon img{
+    width: 30%;
+    margin-bottom: -10px;
+  }
+  .contact-logo img{
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .contact p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+
+  .btn {
+    font-size: 15px;
+    width: 90%;
+  }
+
+  footer {
+    margin-top: 30px;
+  background: none;
+  background-color: #5be3ec;
+  height: 90px;
+  }
+}

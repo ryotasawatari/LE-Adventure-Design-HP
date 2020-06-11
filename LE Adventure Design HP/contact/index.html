@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contactstyle.css">
+  <link rel="stylesheet" href="contactresponsive.css">
+  <link rel="shortcut icon" href="../LE favicon.ico">
+  <title>LE Adventure Design</title>
+</head>
+<body>
+  <header>
+    <div class="topborder"></div>
+    <div class="header-nav">
+      <div class="header-logo">
+        <img src="../header-logo.png">
+      </div>
+      <div class="menu-mobile">
+        <input type="checkbox" id="menu-input" class="menu-unshown">
+        <label id="menu-open" for="menu-input"><span></span></label>
+        <label class="manu-unshown" id="menu-close" for="menu-input"></label>
+        <div id="menu-content">
+          <ul id="link"> 
+            <li><a href="../index.html">HOME <span>-トップページへ戻る-</span> </a></li>
+            <li><a href="../works/index.html">WORKS <span>-制作実績-</span> </a></li>
+            <li><a href="../about/index.html">ABOUT <span>-LE Adventure Designについて-</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-list">
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="../works/index.html">WORKS</a></li>
+          <li><a href="../about/index.html">ABOUT</a></li>
+          <li>
+            <p class="current-page">CONTACT</p>
+            <p class="current-page vicon">v</p>
+          </li>
+        </ul>
+        
+      </div>
+
+
+    </div>
+  </header>
+
+  <main>
+
+  </main>
+  <div class="headline">
+    <div class="headline-container">
+      <div class="headline-icon">
+        <img src="../top item/LE-TOP_0037_CONTACT_ICON.png" alt="CONTACTアイコン">
+      </div>
+      <div class="headline-logo">
+        <img src="../top item/LE-TOP_0038_CONTACT_LOGO.png" alt="ABOUTロゴ">
+        <p>お問い合わせ</p>
+      </div>
+      <p>デザイン制作に関するお見積りやご相談等、お気軽にお問い合わせください。</p>
+    </div>
+  </div>
+
+  <div class="contact">
+    <form action="#" method="post">
+      <div class="contact-box">
+        <dl>
+          <dt>貴社名</dt>
+          <dd>
+            <input name="貴社名" type="text" class="contact-input">
+          </dd>
+          <dt>お名前<span>必須</span></dt>
+          <dd>
+            <input name="お名前" type="text" class="contact-input">
+          </dd>
+          <dt>メールアドレス<span>必須</span></dt>
+          <dd>
+            <input name="メールアドレス" type="text" class="contact-input2">
+          </dd>
+          <dt>お電話番号</dt>
+          <dd>
+            <input name="お電話番号" type="text" class="contact-input">
+          </dd>
+          <dt>ご住所</dt>
+          <dd>
+            <input name="ご住所" type="text" class="contact-input2">
+          </dd>
+          <dt>ホームページURL</dt>
+          <dd>
+            <input name="ホームページURL" type="text" class="contact-input2">
+          </dd>
+          <dt>お問い合わせ内容<span>必須</span></dt>
+          <dd>
+            <textarea name="お問い合わせ内容" class="contact-textarea" cols row></textarea>
+          </dd>
+        </dl>
+        <div contact-btn>
+          <p class="btn">
+            <!-- 送信内容を確認する -->
+            <input class="contact-submit" type="submit" value="送信内容を確認する >">
+          </p>
+        </div>
+      </div>
+    </form>
+
+  </div>
+  <footer>
+    <p>© LE Adventure Design ALL Right Reserved.</p>
+  </footer>
+  
+</body>
+</html>

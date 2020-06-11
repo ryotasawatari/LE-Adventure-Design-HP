@@ -1,0 +1,157 @@
+
+@media screen and (max-width: 600px) {
+
+  header {
+    height: 80px;
+    position: static;
+  }
+  .header-nav{
+    width: 100%;
+    height: 80px;
+    text-align: left;
+    position: relative;
+  }
+
+  .header-logo img {
+    width: 60%;
+    height: auto;
+    padding: 10px 10px;
+    margin: 0;
+    margin-left: 20px;
+    float: none;
+  }
+
+  .menu-mobile {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+  }
+
+  .header-list li {
+    display: none;
+  }
+  .main-headline {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .pic1 img {
+    width: 60%;
+  }
+  .pic2 img {
+    width: 80%;
+  }
+  .main-headline p {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .works {
+   background: none;
+   height: auto;
+  }
+  .works-container {
+    width: auto;
+    background-color: #5be3ec;
+    margin-top: 50px;
+    height: 250px;
+  }
+  .works-pic {
+    text-align: none;
+  }
+  .works-pic img {
+    margin: 40px 10px 10px 0;
+    width: 20%;
+    height: auto;
+  }
+  .works-link {
+    text-align: center;
+  }
+  .service {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+  }
+  .service p {
+    font-size: 10px;
+    line-height: 16px;
+  }
+  .service h1 {
+    font-size: 10px;
+    margin: 30px 0;
+  }
+  .service span {
+    color: #00e367;
+    font-size: 18px;
+  }
+  .service-guide {
+    margin-left: 0;
+    height: auto;
+  }
+
+  .guide-item {
+    width: 60%;
+    float: none;
+    margin: 40px auto;
+  }
+  .guide-item h2 {
+    font-size: 20px;
+    margin: 20px 0 15px;
+  }
+  .guide-item p {
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+  }
+  .about {
+    height: 200px;
+  }
+
+  .about-container {
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+
+  .about-container img {
+    position: static;
+    width: 50%;
+    height: 50%;
+    margin-top: 20px;
+  }
+
+  .about-link {
+    text-align: center;
+    margin-top: -10px;
+    width: 100%;
+  }
+  .contact {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .contact-icon img{
+    width: 30%;
+    margin-bottom: -10px;
+  }
+  .contact-logo img{
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  .contact p {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+
+  .btn {
+    font-size: 15px;
+    width: 90%;
+  }
+
+  footer {
+    margin-top: 30px;
+  background: none;
+  background-color: #5be3ec;
+  height: 90px;
+  }
+}
