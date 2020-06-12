@@ -3,18 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="aboutstyle.css">
-  <link rel="stylesheet" href="aboutresponsive.css">
+  <link rel="stylesheet" href="about_style.css">
+  <link rel="stylesheet" href="about_responsive.css">
   <link rel="shortcut icon" href="../LE favicon.ico">
   <title>LE Adventure Design</title>
 </head>
+
 <body>
+  <!-- ヘッダー -->
   <header>
     <div class="topborder"></div>
     <div class="header-nav">
-      <div class="header-logo">
-        <img src="../header-logo.png">
-      </div>
+      <a class="header-logo" href="../index.html">
+        <img src="../item/header-logo.png">
+      </a>
+
+      <!-- ハンバーガーメニュー -->
       <div class="menu-mobile">
         <input type="checkbox" id="menu-input" class="menu-unshown">
         <label id="menu-open" for="menu-input"><span></span></label>
@@ -22,42 +26,44 @@
         <div id="menu-content">
           <ul id="link"> 
             <li><a href="../index.html">HOME <span>-トップページへ戻る-</span> </a></li>
-            <li><a href="../works/index.html">WORKS <span>-制作実績-</span> </a></li>
-            <li><a href="../contact/index.html">CONTACT <span>-お問い合わせ-</span> </a></li>
+            <li><a href="../works/works_index.html">WORKS <span>-制作実績-</span> </a></li>
+            <li><a href="../contact/contact_index.html">CONTACT <span>-お問い合わせ-</span> </a></li>
           </ul>
         </div>
       </div>
+
+      <!-- メニュー -->
       <div class="header-list">
         <ul>
           <li><a href="../index.html">HOME</a></li>
-          <li><a href="../works/index.html">WORKS</a></li>
+          <li><a href="../works/works_index.html">WORKS</a></li>
           <li>
             <p class="current-page">ABOUT</p>
             <p class="current-page vicon">v</p>
           </li>
-          <li><a href="../contact/index.html">CONTACT</a></li>
+          <li><a href="../contact/contact_index.html">CONTACT</a></li>
         </ul>
-        
       </div>
-
 
     </div>
   </header>
 
   <main>
+    <!-- ヘッドライン -->
     <div class="headline">
       <div class="headline-container">
         <div class="headline-icon">
-          <img src="../anothr item/profile-icon.png" alt="ABOUTアイコン">
+          <img src="../item/profile-icon.png" alt="ABOUTアイコン">
         </div>
         <div class="headline-logo">
-          <img src="../anothr item/ABOUT.png"" alt="ABOUTロゴ">
+          <img src="../item/ABOUT.png"" alt="ABOUTロゴ">
           <p>LE Adventure Designについて</p>
         </div>
         <p>フリーランスとしてデザイン制作を行っています。</p>
       </div>
     </div>
 
+    <!-- アバウト -->
     <div class="about-info">
       <dl>
         <dt>
@@ -88,16 +94,17 @@
       
     </div>
 
+    <!-- お問い合わせ -->
     <div class="contact">
       <div class="contact-icon">
-        <img src="../top item/LE-TOP_0037_CONTACT_ICON.png" alt="contact-icon">
+        <img src="../item/LE-TOP_0037_CONTACT_ICON.png" alt="contact-icon">
       </div>
       <div class="contact-logo">
-        <img src="../top item/LE-TOP_0038_CONTACT_LOGO.png" alt="contact-logo">
+        <img src="../item/LE-TOP_0038_CONTACT_LOGO.png" alt="contact-logo">
       </div>
       <p>デザイン制作に関するお見積りやご相談等、お気軽にお問い合わせください。</p>
       <div class="contact-link">
-          <a class="btn" href="../contact/index.html">
+          <a class="btn" href="../contact/contact_index.html">
             お問い合わせ <span>></span>
           </a>
         </div>
@@ -106,6 +113,7 @@
 
   </main>
 
+  <!-- フッター -->
   <footer>
     <p>© LE Adventure Design ALL Right Reserved.</p>
   </footer>

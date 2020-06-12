@@ -1,6 +1,7 @@
 
 @media screen and (max-width: 600px) {
 
+  /* ヘッダー */
   header {
     height: 80px;
     position: static;
@@ -11,7 +12,6 @@
     text-align: left;
     position: relative;
   }
-
   .header-logo img {
     width: 60%;
     height: auto;
@@ -21,6 +21,7 @@
     float: none;
   }
 
+  /* ハンバーガーメニュー */
   .menu-mobile {
     display: block;
     position: absolute;
@@ -28,11 +29,12 @@
     right: 30px;
   }
 
+  /* 通常メニュー非表示 */
   .header-list li {
     display: none;
   }
 
-
+  /* ヘッドライン */
   .headline {
     margin-top: 50px;
     height: 300px;
@@ -53,6 +55,8 @@
     font-size: 15px;
     line-height: 20px;
   }
+
+  /* 制作実績 */
   .works-container {
     margin-top: 40px;
     width: 90%;
@@ -61,15 +65,12 @@
   .works-item {
     margin: 10px auto;
   }
-  
   .works-item img {
     width: 150px;
     height: auto;
   }
 
-
-
-
+  /* お問い合わせ */
   .contact {
     width: 100%;
     margin-top: -50px;
@@ -89,11 +90,13 @@
     padding-bottom: 30px;
   }
 
+  /* ボタン */
   .btn {
     font-size: 15px;
     width: 90%;
   }
 
+  /* フッター */
   footer {
     margin-top: 30px;
   background: none;

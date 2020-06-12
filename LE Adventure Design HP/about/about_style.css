@@ -97,11 +97,13 @@ input, select {
 ＊ CSS ENTRY ＊
 -------------------------------------------------------*/
 
+/* フォント初期設定 */
 html, body {
   font-family: "Helvetica", "Arial", "BIZ UDGothic", "Hiragino Kaku Gothic ProN", "Hiragino Sans", YuGothic, "Yu Gothic", "メイリオ", Meiryo, sans-serif;;
   color: #434343;
 }
 
+/* ヘッダー装飾 */
 .topborder {
   border-top: 5px solid #00e367;
 }
@@ -112,11 +114,7 @@ header {
   width: 100%;
   height: 100px;
   background: #fff;
-  /* background: -moz-linear-gradient(top, #fff 70%, #d8fae7 99%); 
-  background: -webkit-linear-gradient(top, #fff 70%, #d8fae7 99%); 
-  background: linear-gradient(to bottom, #fff 70%, #d8fae7 99%);  */
 }
-
 .header-nav {
   width: 900px;
   height: 100px;
@@ -129,22 +127,21 @@ header {
   margin: 0 20px;
   float: left;
 }
+
+/* ハンバーガーメニュー */
 .menu-mobile {
   display: none;
   position: relative;
 }
-
 .menu-unshown {
   display: none;
 }
-
 #menu-open {
   display: inline-block;
   width: 30px;
   height: 22px;
   vertical-align: middle;
 }
-
 #menu-open span, #menu-open span:before, #menu-open span:after {
   position: absolute;
   height: 3px;
@@ -210,11 +207,11 @@ header {
   color: #7c7c7c;
   font-size: 10px;
 }
-
 #link a:active {
   color: #00e367;
 }
 
+/* メニュー */
 .header-list li {
   list-style-type: none;
   font-size: 18px;
@@ -233,17 +230,15 @@ header {
   margin-left: 20px;
   margin-right: 20px;
 }
-
 .header-list a:hover {
   color: #00e367;
 }
 
-/* メイン構築 */
-
+/* ヘッドライン */
 .headline {
   margin-top: 100px;
   height: 500px;
-  background-image: url(../anothr\ item/icon-bg.png);
+  background-image: url(../item/icon-bg.png);
   background-size: 1500px;
   background-repeat: repeat-x;  
   background-position: 50% 50%;
@@ -269,12 +264,12 @@ header {
   font-weight: bold;
 }
 
+/* アバウト装飾 */
 .about-info {
   width: 600px;
   margin: 30px auto;
   font-size: 13px;
 }
-
 .about-info dt {
   float: left;
 }
@@ -284,6 +279,7 @@ header {
   margin-bottom: 30px;
 }
 
+/* お問い合わせ装飾 */
 .contact {
   width: 900px;
   margin: 0 auto;
@@ -304,9 +300,8 @@ header {
   font-size: 18px;
   padding-bottom: 30px;
 }
-.about-link {
-  margin:  0 auto;
-}
+
+/* ボタン装飾 */
 .btn {
   display: inline-block;
   width: 270px;
@@ -356,12 +351,11 @@ header {
   background-color: #00e367;
 }
 
-
-/* フッター構築 */
+/* フッター装飾 */
 footer {
   margin-top: 60px;
   height: 50px;
-  background-image: url(../top\ item/LE-TOP_0044_footer-background.png);
+  background-image: url(../item/LE-TOP_0044_footer-background.png);
   background-size: 1300px;
   background-repeat: repeat-x;  
   background-position: 50% 50%;

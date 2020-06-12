@@ -97,11 +97,13 @@ input, select {
 ＊ CSS ENTRY ＊
 -------------------------------------------------------*/
 
+/* フォント初期設定 */
 html, body {
   font-family: "Helvetica", "Arial", "BIZ UDGothic", "Hiragino Kaku Gothic ProN", "Hiragino Sans", YuGothic, "Yu Gothic", "メイリオ", Meiryo, sans-serif;;
   color: #434343;
 }
 
+/* ヘッダー装飾 */
 .topborder {
   border-top: 5px solid #00e367;
 }
@@ -128,22 +130,21 @@ header {
   margin: 0 20px;
   float: left;
 }
+
+/* ハンバーガーメニュー */
 .menu-mobile {
   display: none;
   position: relative;
 }
-
 .menu-unshown {
   display: none;
 }
-
 #menu-open {
   display: inline-block;
   width: 30px;
   height: 22px;
   vertical-align: middle;
 }
-
 #menu-open span, #menu-open span:before, #menu-open span:after {
   position: absolute;
   height: 3px;
@@ -209,11 +210,11 @@ header {
   color: #7c7c7c;
   font-size: 10px;
 }
-
 #link a:active {
   color: #00e367;
 }
 
+/* メニュー */
 .header-list li {
   list-style-type: none;
   font-size: 18px;
@@ -229,15 +230,14 @@ header {
   color: #00e367;
 }
 .vicon {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0 20px;
 }
 
 .header-list a:hover {
   color: #00e367;
 }
 
-
+/* ヘッドライン装飾 */
 .main-headline {
   width: 900px;
   margin: 0 auto;
@@ -258,11 +258,13 @@ header {
   font-size: 18px;
   margin-top: 20px;
 }
+
+/* 制作実績装飾 */
 .works {
   height: 500px;
-  background-image: url("../top\ item/LE-TOP_0017_background-img-wave.png");
+  background-image: url("item/LE-TOP_0017_background-img-wave.png");
   background-size: 1500px;
-  background-repeat: repeat-x;  
+  background-repeat: repeat-x;
   background-position: 50% 50%;
 }
 .works-container {
@@ -281,6 +283,8 @@ header {
 .works-link {
   margin-top: 20px;
 }
+
+/* サービス内容装飾 */
 .service {
   width: 900px;
   height: 680px;
@@ -318,6 +322,8 @@ header {
   line-height: 16px;
   text-align: left;
 }
+
+/* アバウト装飾 */
 .about {
   width: auto;
   height: 250px;
@@ -347,6 +353,7 @@ header {
   top: 180px;
 }
 
+/* お問い合わせ装飾 */
 .contact {
   width: 900px;
   margin: 0 auto;
@@ -370,6 +377,8 @@ header {
 .about-link {
   margin:  0 auto;
 }
+
+/* ボタン装飾 */
 .btn {
   display: inline-block;
   width: 270px;
@@ -419,10 +428,11 @@ header {
   background-color: #00e367;
 }
 
+/* フッター装飾 */
 footer {
   margin-top: 60px;
   height: 50px;
-  background-image: url(../top\ item/LE-TOP_0044_footer-background.png);
+  background-image: url(item/LE-TOP_0044_footer-background.png);
   background-size: 1300px;
   background-repeat: repeat-x;  
   background-position: 50% 50%;
